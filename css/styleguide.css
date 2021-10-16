@@ -3,6 +3,7 @@
   --black-2: #00000033;
   --concord: #7d7d7d;
   --mist-gray: #c4c4c4;
+  --mist-gray-2: #c4c4c4d6;
   --scarlet: #f82103;
   --white: #ffffff;
  
@@ -13,8 +14,9 @@
   --font-size-xxxl: 50px;
  
   --font-family-crimson_text: "Crimson Text", Helvetica;
+  --font-family-crimson_text-semibold: "Crimson Text-SemiBold", Helvetica;
   --font-family-montserrat: "Montserrat", Helvetica;
-  --font-family-rubik-regular: "Rubik-Regular", Helvetica;
+  --font-family-rubik: "Rubik", Helvetica;
 }
 .body-montserrat-regular {
   font-family: var(--font-family-montserrat);
@@ -32,11 +34,19 @@
   font-weight: 400;
 }
 
-.rubik-regular-normal-white-24px {
+.rubik-normal-white-24px {
   color: var(--white);
-  font-family: var(--font-family-rubik-regular);
+  font-family: var(--font-family-rubik);
   font-size: var(--font-size-l);
   font-style: normal;
+  font-weight: 400;
+}
+
+.crimsontext-normal-black-50px {
+  color: var(--black);
+  font-family: var(--font-family-crimson_text);
+  font-size: var(--font-size-xxxl);
+  font-style: italic;
   font-weight: 400;
 }
 
