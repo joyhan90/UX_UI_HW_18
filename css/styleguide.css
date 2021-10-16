@@ -1,0 +1,53 @@
+:root { 
+  --black: #000000;
+  --black-2: #00000033;
+  --concord: #7d7d7d;
+  --mist-gray: #c4c4c4;
+  --scarlet: #f82103;
+  --white: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 16px;
+  --font-size-xl: 26px;
+  --font-size-xxl: 34px;
+  --font-size-xxxl: 50px;
+ 
+  --font-family-crimson_text: "Crimson Text", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-rubik-regular: "Rubik-Regular", Helvetica;
+}
+.body-montserrat-regular {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.crimsontext-normal-black-26px {
+  color: var(--black);
+  font-family: var(--font-family-crimson_text);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rubik-regular-normal-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-rubik-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.crimsontext-normal-black-34px {
+  color: var(--black);
+  font-family: var(--font-family-crimson_text);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-0-9px-scarlet {
+  border: 0.9px solid var(--scarlet);
+}

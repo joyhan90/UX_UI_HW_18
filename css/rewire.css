@@ -1,0 +1,40 @@
+/* screen - rewire */
+
+.rewire {
+  align-items: flex-start;
+  background-color: var(--black-2);
+  display: flex;
+  height: 486px;
+  min-width: 720px;
+}
+
+.rewire .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-1@1x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 486px;
+  padding: 54px 51px;
+  width: 720px;
+}
+
+.rewire .bytesizephoto {
+  align-self: center;
+  height: 84px;
+  margin-top: 147px;
+  width: 84px;
+}
+
+.rewire .rewire-1 {
+  letter-spacing: 0;
+  margin-top: 83px;
+  min-height: 32px;
+  width: 392px;
+}
+
+.rewire .habit-tracking-app {
+  letter-spacing: 0;
+  min-height: 32px;
+  width: 392px;
+}
